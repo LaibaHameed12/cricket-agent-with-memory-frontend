@@ -6,9 +6,9 @@ import {
     useGetMessagesQuery,
     useGetSummariesQuery,
 } from '@/redux/slices/chat/chatApi';
-import ChatList from '@/components/ChatList';
-import MessageList from '@/components/MessageList';
-import MessageInput from '@/components/MessageInput';
+import ChatList from '@/Components/ChatList';
+import MessageList from '@/Components/MessageList';
+import MessageInput from '@/Components/MessageInput';
 import ProtectedRoute from '@/Components/ProtectedRoute';
 
 export default function ChatPage() {
